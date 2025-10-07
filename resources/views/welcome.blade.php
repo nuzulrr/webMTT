@@ -86,8 +86,8 @@
       </div>
       <div class="row" style="padding-bottom:100px;" >
         <div class="col-md-6">
-          <div id="aboutCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-aos="fade-right" data-aos-delay="50" style="padding-top:50px;">
-             <div class="carousel-indicators mb-5 ">
+          <div id="aboutCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-aos="fade-right" data-aos-delay="50" style="padding-top:50px; padding-bottom:20px;">
+             <div class="carousel-indicators mb-5 " style="padding-top:20px;">
   <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
   <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
   <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
