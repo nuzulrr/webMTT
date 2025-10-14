@@ -91,6 +91,7 @@
   <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
   <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
   <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
 </div>
 
 <style>
@@ -109,13 +110,16 @@
 </style>
             <div class="carousel-inner text-center">
               <div class="carousel-item active">
-                <img src="{{ asset('assets/images/about.png') }}" class="d-block mx-auto w-75 img-fluid mb-3" alt="About Us 1">
+                <img src="{{ asset('assets/images/about1.png') }}" class="d-block mx-auto w-75 img-fluid mb-3" alt="About Us 1">
               </div>
               <div class="carousel-item">
                 <img src="{{ asset('assets/images/about2.png') }}" class="d-block mx-auto w-75 img-fluid mb-3" alt="About Us 2">
               </div>
                <div class="carousel-item">
                 <img src="{{ asset('assets/images/about3.png') }}" class="d-block mx-auto w-75 img-fluid mb-3" alt="About Us 3">
+              </div>
+               <div class="carousel-item">
+                <img src="{{ asset('assets/images/about4.png') }}" class="d-block mx-auto w-75 img-fluid mb-3" alt="About Us 4">
               </div>
             </div>
 
